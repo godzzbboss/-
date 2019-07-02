@@ -1,0 +1,82 @@
+% Initialisation script for composited kernel.  
+function hypinit = initPolyhypers(data_x)
+[n,d] = size(data_x);
+% create initialisation vector of all hypers
+hypinit = zeros(33,1); % hypinit???????????
+% Simple initialisation
+% rng(3);
+hyp_cov1 = abs(2*rand(1,1));
+hyp_cov2 = abs(2*rand(1,1));
+hyp_cov3 = abs(2*rand(1,1));
+hyp_cov4 = abs(2*rand(1,1));
+hyp_cov5 = abs(2*rand(1,1));
+hyp_cov6 = abs(2*rand(1,1));
+hyp_cov7 = abs(2*rand(1,1));
+hyp_cov8 = abs(2*rand(1,1));
+hyp_cov9 = abs(2*rand(1,1));
+hyp_cov10 = abs(2*rand(1,1));
+hyp_cov11 = abs(2*rand(1,1));
+hyp_cov12 = abs(2*rand(1,1));
+hyp_cov13 = abs(2*rand(1,1));
+hyp_cov14 = abs(2*rand(1,1));
+hyp_cov15 = abs(2*rand(1,1));
+hyp_cov16 = abs(2*rand(1,1));
+hyp_cov17 = abs(2*rand(1,1));
+hyp_cov18 = abs(2*rand(1,1));
+hyp_cov19 = abs(2*rand(1,1));
+hyp_cov20 = abs(2*rand(1,1));
+hyp_cov21 = abs(2*rand(1,1));
+hyp_cov22 = abs(2*rand(1,1));
+hyp_cov23 = abs(2*rand(1,1));
+hyp_cov24 = abs(2*rand(1,1));
+hyp_cov25 = abs(2*rand(1,1));
+hyp_cov26 = abs(2*rand(1,1));
+hyp_cov27 = abs(2*rand(1,1));
+hyp_cov28 = abs(2*rand(1,1));
+hyp_cov29 = abs(randn(1,1));
+hyp_cov30 = abs(randn(1,1));
+hyp_cov31 = abs(randn(1,1));
+hyp_cov32 = abs(randn(1,1));
+hyp_cov33 = abs(randn(1,1));
+% hyp_cov34 = abs(randn(1,1));
+% hyp_cov35 = abs(randn(1,1));
+% hyp_cov36 = abs(randn(1,1));
+
+
+hypinit(1) = log(hyp_cov1);
+hypinit(2) = log(hyp_cov2);
+hypinit(3) = log(hyp_cov3);
+hypinit(4) = log(hyp_cov4);
+hypinit(5) = log(hyp_cov5);
+hypinit(6) = log(hyp_cov6);
+hypinit(7) = log(hyp_cov7);
+hypinit(8) = log(hyp_cov8);
+hypinit(9) = log(hyp_cov9);
+hypinit(10) = log(hyp_cov10);
+hypinit(11) = log(hyp_cov11);
+hypinit(12) = log(hyp_cov12);
+hypinit(13) = log(hyp_cov13);
+hypinit(14) = log(hyp_cov14);
+hypinit(15) = log(hyp_cov15);
+hypinit(16) = log(hyp_cov16);
+hypinit(17) = log(hyp_cov17);
+hypinit(18) = log(hyp_cov18);
+hypinit(19) = log(hyp_cov19);
+hypinit(20) = log(hyp_cov20);
+hypinit(21) = log(hyp_cov21);
+hypinit(22) = log(hyp_cov22);
+hypinit(23) = log(hyp_cov23);
+hypinit(24) = log(hyp_cov24);
+hypinit(25) = log(hyp_cov25);
+hypinit(26) = log(hyp_cov26);
+hypinit(27) = log(hyp_cov27);
+hypinit(28) = log(hyp_cov28);
+hypinit(29) = log(hyp_cov29);
+hypinit(30) = log(hyp_cov30);
+hypinit(31) = log(hyp_cov31);
+hypinit(32) = log(hyp_cov32);
+hypinit(33) = log(hyp_cov33);
+% hypinit(34) = log(hyp_cov34);
+% hypinit(35) = log(hyp_cov35);
+% hypinit(36) = log(hyp_cov36);
+end
